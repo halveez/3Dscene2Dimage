@@ -13,12 +13,17 @@ The results of these reconstructions can be found within the sub-folders for eac
 
 ### WebODM and OpenHeritage
 
-First I downloaded various datasets from OpenHeritage on Mesa Verde National Park, as well as one dataset on Pompeii, Italy (citations at end of README). I also downloaded a test dataset from WebODM itself.
+First I downloaded various datasets from OpenHeritage on Mesa Verde National Park, as well as one dataset on Pompeii, Italy (citations at end of README). I also downloaded a test dataset from WebODM itself. 
 
+The files from OpenHeritage are .e57, which I opened in CloudCompute and was able to open and view the point cloud data, take approximate measurements, and export screenshots.
+
+The test dataset from WebODM I processed through both WebODM and Meshroom to compare results.
 
 ### GreenValley Interational
 
 While I intended to describe some results from GreenValley software, as it is not open source I will not upload any results, and only experimented briefly with their tools.
+
+However, the sample data on their site was very enjoyable to interact with here - https://greenvalleyintl.com/sample-data/
 
 ### Data Sources
 
