@@ -18,7 +18,7 @@ First I downloaded various datasets from OpenHeritage on Mesa Verde National Par
 
 ### GreenValley Interational
 
-While I inteded to describe some results from GreenValley software, as it is not open source I will not upload any results, and only experimented briefly with their tools.
+While I intended to describe some results from GreenValley software, as it is not open source I will not upload any results, and only experimented briefly with their tools.
 
 ### Data Sources
 
