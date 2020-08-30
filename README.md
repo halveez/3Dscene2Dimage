@@ -21,6 +21,16 @@ Next, I loaded the Pompeii, Italy dataset in CloudCompare and took similar measu
 
 The test dataset from WebODM I processed through both WebODM and Meshroom to compare results.
 
+While proccessing the Waterbury dataset through WebODM, I downsized the images and first reconstructed a model using every other image in order to ensure I would have enough time for the submission. This reconstruction took approximately 90 minutes, and is generally accurate, but quite rough, and would be difficult to extract dimensionally accurate measurements from. The reconstruction can be found here: 
+
+https://github.com/halveez/3Dscene2Dimage/tree/master/AerialTests/WebODM/EveryOtherPhoto/all/odm_texturing
+
+I then ran the same setting including all of the images, with an estimated run time of 10+ hours, I was not able to reconstruct the scene at a second, higher resolution before the deadline.
+
+Similarly for Meshroom after running a default setting reconstruction with approximately 2000 photos, I was forced to restart the reconstruction, downscaling the Depth Map and the final Texturing in order to complete the reconstruction in a timely manner.
+
+While these processes were running, I ran the same set of photos through a free trial of Zephyr3D, and similarly used low resolution and "fast" settings to perform the reconstruction.
+
 ### GreenValley Interational
 
 While I intended to describe some results from GreenValley software, as it is not open source I will not upload any results, and only experimented briefly with their tools.
