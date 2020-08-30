@@ -1,0 +1,18 @@
+{
+    "status": "ERROR",
+    "execMode": "LOCAL",
+    "nodeName": "Texturing_1",
+    "nodeType": "Texturing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_texturing  --input \"D:/EC601Git/MeshroomCache/Meshing/afdd2d514137b086b2998757ef0f91642daa27bc/densePointCloud.abc\" --imagesFolder \"D:/EC601Git/MeshroomCache/PrepareDenseScene/a610a9bcbd1fe41f6683900f611b037c38f9d739\" --inputMesh \"D:/EC601Git/MeshroomCache/MeshFiltering/060cc2da657bfdc1b3c88fbce52e1a4c98b00679/mesh.obj\" --textureSide 8192 --downscale 1 --outputTextureFileType png --unwrapMethod Basic --useUDIM True --fillHoles False --padding 5 --correctEV False --useScore True --processColorspace sRGB --multiBandDownscale 4 --multiBandNbContrib 1 5 10 0 --bestScoreThreshold 0.1 --angleHardThreshold 90.0 --forceVisibleByAllVertices False --flipNormals False --visibilityRemappingMethod PullPush --verboseLevel info --output \"D:/EC601Git/MeshroomCache/Texturing/934b85df236e81202e1dc4f464023e28d6edec02\" ",
+    "env": null,
+    "startDateTime": "2020-08-30 10:54:08.616104",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "LAPTOP-F140NB6L",
+    "sessionUid": "fc52ebbe-eae8-11ea-977c-54e1ad4f0186",
+    "returnCode": 15,
+    "elapsedTimeStr": "0:00:00"
+}

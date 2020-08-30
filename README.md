@@ -1,9 +1,9 @@
 # 3Dscene2Dimage
 EC601 Placement Exam Demonstrations
 Zachary Halvorson
-August 29, 2020
+August 30, 2020
 
-In researching and experimenting with various 3D reconstruction programs I tested Alicevision Meshroom for static object reconstruction, WebODM and OpenHeritage for aerial photogrammetry, and a free-trial of professional software from GreenValley International (LiDAR360, LiMapper, LiPowerline)
+In researching and experimenting with various 3D reconstruction programs I tested Alicevision Meshroom for static object reconstruction, WebODM and OpenHeritage for aerial photogrammetry, and a free-trial of professional software from GreenValley International (LiDAR360, LiMapper, LiPowerline) as well as Zephyr3D.
 
 ### Static Objects
 
@@ -19,23 +19,25 @@ The files from OpenHeritage are .e57, which I opened in CloudCompare and was abl
 
 Next, I loaded the Pompeii, Italy dataset in CloudCompare and took similar measurements with corresponding screenshots in the same folder. In fact, the high quality of the dataset allowed for detecting a gate at the base of a set of stairs beneath some columns to be detected, which were easily found in a corresponding google search and image from the following website - https://juliasalbum.com/things-to-do-in-pompeii/. I again took some measurements of the gate, the column heights, and the column diameter from an overhead view.
 
-The test dataset from WebODM I processed through both WebODM and Meshroom to compare results.
+The test dataset from WebODM of aerial Waterbury photos was processed through both WebODM and Meshroom to compare results.
 
 While proccessing the Waterbury dataset through WebODM, I downsized the images and first reconstructed a model using every other image in order to ensure I would have enough time for the submission. This reconstruction took approximately 90 minutes, and is generally accurate, but quite rough, and would be difficult to extract dimensionally accurate measurements from. The reconstruction can be found here: 
 
 https://github.com/halveez/3Dscene2Dimage/tree/master/AerialTests/WebODM/EveryOtherPhoto/all/odm_texturing
 
-I then ran the same setting including all of the images, with an estimated run time of 10+ hours, I was not able to reconstruct the scene at a second, higher resolution before the deadline.
+I then ran the same setting including all of the images, and with an estimated run time of 10+ hours, I was not able to reconstruct the scene at a second, higher resolution before the deadline.
 
-Similarly for Meshroom after running a default setting reconstruction with approximately 2000 photos, I was forced to restart the reconstruction, downscaling the Depth Map and the final Texturing in order to complete the reconstruction in a timely manner.
+Similarly for Meshroom after running a default setting reconstruction with approximately 2000 photos, I was forced to restart the reconstruction after it stalled approximately 20 hours in. I attempted to shorten the processing time by downscaling the Depth Map and the final Texturing in order to attempt to complete the reconstruction in a timely manner. The reconstruction failed however in the texturing step, and I was unable to produce an interactive object with all of the photos at a high resolution.
 
-While these processes were running, I ran the same set of photos through a free trial of Zephyr3D, and similarly used low resolution and "fast" settings to perform the reconstruction.
+For WebODM, I allocated 2.5GB (default) of RAM out of a total 16GB available on my device, and in future tests when not performing multiple concurrent reconstructions, I would likely allocate closer to 8GB RAM, or more.
+
+While these processes were running, I ran the same set of photos through a free trial of Zephyr3D, and similarly used low resolution and "fast" settings to perform a reconstruction. It failed after producing a dense point cloud, results included in PDF form.
 
 ### GreenValley Interational
 
 While I intended to describe some results from GreenValley software, as it is not open source I will not upload any results, and only experimented briefly with their tools.
 
-However, the sample data on their site was very enjoyable to interact with here - https://greenvalleyintl.com/sample-data/
+However, the LIDAR sample data on their site was very enjoyable to interact with here - https://greenvalleyintl.com/sample-data/
 
 ### Data Sources
 
